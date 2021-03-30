@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+// use ./ if the file is in same folder
+// ../../../ to navigate to parent folder
 
 ReactDOM.render(
   <React.StrictMode>
